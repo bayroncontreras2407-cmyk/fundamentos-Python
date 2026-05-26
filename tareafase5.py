@@ -1,7 +1,6 @@
 # Solución Problema 3 - Auditoría de inventario
-# Autor: [Tu nombre]
+# Autor: Bayron Contreras Castañeda
 # Curso: Fundamentos de Programación - UNAD
-
 def calcular_pedido(stock_actual, stock_minimo):
     """
     Calcula la cantidad a pedir para un artículo.
@@ -11,7 +10,6 @@ def calcular_pedido(stock_actual, stock_minimo):
         return stock_minimo - stock_actual
     else:
         return 0
-
 def main():
     # Matriz de inventario: [Código, Nombre, Stock Actual, Stock Mínimo]
     inventario = [
