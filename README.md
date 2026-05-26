@@ -1,5 +1,5 @@
 # Solución Problema 3 - Auditoría de inventario
-# Autor: [Tu nombre]
+# Autor: Bayron Contreras Castañeda
 # Curso: Fundamentos de Programación - UNAD
 
 def calcular_pedido(stock_actual, stock_minimo):
