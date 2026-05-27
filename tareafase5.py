@@ -28,7 +28,5 @@ def main():
         minimo = articulo[3]
         pedido = calcular_pedido(actual, minimo)
         print(f"{nombre:20} | {pedido}")
-        # Opcional: si quieres mostrar también los códigos, modifica la línea anterior.
-# Punto de entrada del programa
 if __name__ == "__main__":
     main()
